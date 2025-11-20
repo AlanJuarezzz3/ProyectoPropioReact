@@ -23,7 +23,7 @@ function App() {
     let cantidadTotalDePeliculas = peliculasJson.length;
     return Math.ceil(cantidadTotalDePeliculas / TOTAL_POR_PAGINA);
   }
-
+//carga peliculas
   cargarPeliculas();
 
   return (
